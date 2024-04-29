@@ -25,8 +25,8 @@ jobs:
       - name: Build and test devcontainer
         uses: devcontainers/ci@v0.3
         with:
-          imageName: ghcr.io/rails/devcontainer/test-ruby-feature
-          cacheFrom: ghcr.io/rails/devcontainer/test-ruby-feature
+          imageName: ghcr.io/bloomedai/devcontainer/test-ruby-feature
+          cacheFrom: ghcr.io/bloomedai/devcontainer/test-ruby-feature
           subFolder: .github
           refFilterForPush: refs/heads/main
           runCmd: ruby -v || ( echo "Ruby is not installed."; exit 1 )

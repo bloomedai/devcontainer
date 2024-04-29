@@ -23,7 +23,7 @@ is the best place to start.
 
 Features are released using the [devcontainers/action](https://github.com/devcontainers/action) Github Action. When
 the `version` in a feature's `devcontainer-feature.json` is updated on the `main` branch, this action will publish a
-new version of that feature to `ghcr.io/rails/devcontainer/features/[feature name]`.
+new version of that feature to `ghcr.io/bloomedai/devcontainer/features/[feature name]`.
 
 ## Contributing to the ruby image
 

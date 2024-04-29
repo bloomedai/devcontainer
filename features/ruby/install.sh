@@ -20,7 +20,8 @@ if [ "${USERNAME}" != "root" ]; then
     echo 'eval "$(rbenv init -)"' >> /home/${USERNAME}/.bashrc
 fi
 
-su ${USERNAME} -c "rbenv install $VERSION"
+    
+su ${USERNAME} -c "curl -fsSL https://github.com/ruby/ruby/pull/9371.diff | rbenv install -p $VERSION"
 su ${USERNAME} -c "rbenv global $VERSION"
 
 rm -rf /var/lib/apt/lists/*

@@ -23,9 +23,9 @@ would look like this:
 
 ```json
 {
-  "image": "ghcr.io/rails/devcontainer/images/ruby:3.3.0",
+  "image": "ghcr.io/bloomedai/devcontainer/images/ruby:3.3.0",
   "features": {
-    "ghcr.io/rails/devcontainer/features/activestorage": {}
+    "ghcr.io/bloomedai/devcontainer/features/activestorage": {}
   }
 }
 ```
